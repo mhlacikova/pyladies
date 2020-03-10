@@ -22,8 +22,7 @@ while vstup == 'ano':
 
 if vstup == 'nie':
     print('Tvoj aktualny pocet bodov je:',body)
-    if body < 21:
-        print('Mohol si sa viac snazit a riskovat!')
+    print('Mohol si sa viac snazit a riskovat!')
 
 elif not (vstup == 'ano') or (vstup == 'nie'):
      print('Nerozumiem')
