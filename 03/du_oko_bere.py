@@ -16,6 +16,10 @@ while vstup == 'ano':
         vstup = input('Chces potiahnut kartu? Napis ano/nie: ')
         if vstup == 'nie':
             break
+        elif not (vstup == 'ano') or (vstup == 'nie'):
+            print('Nerozumiem')
+            vstup = input('Skus este raz - napis ano/nie: ')
+            continue
     else:
         print('Gratulujem! Vyhral si!')
         break
@@ -23,9 +27,5 @@ while vstup == 'ano':
 if vstup == 'nie':
     print('Tvoj aktualny pocet bodov je:',body)
     print('Mohol si sa viac snazit a riskovat!')
-
-elif not (vstup == 'ano') or (vstup == 'nie'):
-     print('Nerozumiem')
-
 else:
     print('Dakujem za hru.')

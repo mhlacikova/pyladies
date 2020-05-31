@@ -1,3 +1,4 @@
-x = range(2,3,4)
+x = range(5)
+
 for n in x:
   print(n)
