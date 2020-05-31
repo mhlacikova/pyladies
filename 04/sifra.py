@@ -1,5 +1,4 @@
 # Kontrola vstupu
-
 while True:
     try:
          key = int(input('Zadaj kluc: '))
@@ -9,7 +8,6 @@ while True:
 
 
 # Kodovanie
-
 plaintext = input('Zadaj text: ')
 pismena = list(plaintext)
 asko = {}
